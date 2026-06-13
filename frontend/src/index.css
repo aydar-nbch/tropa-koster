@@ -1,0 +1,66 @@
+/* ИМПОРТ И ПЕРЕМЕННЫЕ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import './styles/admin.css';
+@import './styles/blog.css';
+@import './styles/cart.css';
+@import './styles/catalog.css';
+@import './styles/footer.css';
+@import './styles/header.css';
+@import './styles/home.css';
+@import './styles/order.css';
+@import './styles/product.css';
+@import './styles/profile.css';
+@import './styles/auth.css';
+
+:root {
+  --forest: #064e3b;
+  --accent: #f59e0b;
+}
+
+/* ОБЩИЕ СТИЛИ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  flex: 1;
+  flex-grow: 0;
+  text-align: center;
+  background-color: #064e3b;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background: var(--accent);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+

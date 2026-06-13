@@ -1,0 +1,129 @@
+/* ШАПКА САЙТА */
+
+.main-header {
+    background: var(--forest);
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.logo-icon {
+    animation: blink-fire 1.5s infinite ease-in-out;
+    color: var(--accent);
+}
+
+@keyframes blink-fire {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+
+.logo-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.login-btn{
+    padding: 10px 15px;
+}
+
+.login-btn:hover {
+    background-color: var(--accent);
+    border-radius: 8px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: var(--accent);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 540px) {
+    .logo-title {
+        display: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        /* Скрываем меню на мобильных */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: var(--forest);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        gap: 15px;
+        z-index: 100;
+    }
+
+    .nav-menu.open {
+        display: flex;
+        /* Показываем при клике */
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-icons {
+        gap: 10px;
+    }
+}

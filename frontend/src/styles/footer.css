@@ -1,0 +1,35 @@
+/* ФУТЕР */
+
+.main-footer {
+    background: var(--forest);
+    color: #e0e7ff;
+    padding: 60px 0;
+    margin-top: auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+}
+
+.footer-title {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-list li:hover {
+    color: var(--accent);
+}
