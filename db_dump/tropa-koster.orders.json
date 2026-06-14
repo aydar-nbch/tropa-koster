@@ -1,0 +1,646 @@
+[{
+  "_id": {
+    "$oid": "6a10348bd86603d46a194b39"
+  },
+  "user": {
+    "$oid": "6a1030660ef4983b2b8f5171"
+  },
+  "orderItems": [
+    {
+      "name": "Двухместная палатка туристическая",
+      "qty": 1,
+      "image": "[https://example.com/images/tent.jpg](https://example.com/images/tent.jpg)",
+      "price": 4500,
+      "product": {
+        "$oid": "6a102b6d4eeb540a5475a795"
+      },
+      "_id": {
+        "$oid": "6a10348bd86603d46a194b3a"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "ул. Лесная, дом 10",
+    "city": "Казань",
+    "postalCode": "420000",
+    "phone": "+7 (999) 123-45-67"
+  },
+  "paymentMethod": "Картой при получении",
+  "itemsPrice": 4500,
+  "shippingPrice": 300,
+  "totalPrice": 4800,
+  "isPaid": true,
+  "isDelivered": true,
+  "createdAt": {
+    "$date": "2026-05-22T10:48:43.747Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-03T13:01:52.099Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2026-06-03T13:01:52.098Z"
+  },
+  "paidAt": {
+    "$date": "2026-06-03T13:01:52.098Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a217322a780134205dfedf3"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 1,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a217322a780134205dfedf4"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Тукаевский район, д. Суровка, ул. Дружбы, д. 60",
+    "city": "Город не указан",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "Банковская карта",
+  "itemsPrice": 1300,
+  "shippingPrice": 500,
+  "totalPrice": 1800,
+  "isPaid": true,
+  "isDelivered": true,
+  "createdAt": {
+    "$date": "2026-06-04T12:44:18.527Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T12:44:58.993Z"
+  },
+  "__v": 0,
+  "deliveredAt": {
+    "$date": "2026-06-04T12:44:58.993Z"
+  },
+  "paidAt": {
+    "$date": "2026-06-04T12:44:58.993Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a217a160b050d1c93115292"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 1,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a217a160b050d1c93115293"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "ыц",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "card",
+  "itemsPrice": 1300,
+  "shippingPrice": 0,
+  "totalPrice": 1300,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:13:58.414Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:13:58.414Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a217dc8968a723aaca11771"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a217dc8968a723aaca11772"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "sbp",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:29:44.218Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:29:44.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a217dd2968a723aaca11773"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a217dd2968a723aaca11774"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "sbp",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:29:54.638Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:29:54.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a217de2968a723aaca11775"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a217de2968a723aaca11776"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "card",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:30:10.861Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:30:10.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a217ede968a723aaca11777"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a217ede968a723aaca11778"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "card",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:34:22.054Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:34:22.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a218460991b2b075a24c491"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a218460991b2b075a24c492"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "card",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:57:52.554Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:57:52.554Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a2184ad991b2b075a24c493"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a2184ad991b2b075a24c494"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "cash",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T13:59:09.727Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T13:59:09.727Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a21862faf3c687c4d8511fc"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a21862faf3c687c4d8511fd"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "card",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T14:05:35.553Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T14:05:35.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a218723af3c687c4d8511fe"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a218723af3c687c4d8511ff"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "cash",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T14:09:39.346Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T14:09:39.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a218741af3c687c4d851200"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Шампуры",
+      "qty": 2,
+      "image": "/uploads/1780560706386-ÑÐ°Ð¼Ð¿ÑÑÐ°.jpg",
+      "price": 1300,
+      "product": {
+        "$oid": "6a212f0397fd1fc50d283a74"
+      },
+      "_id": {
+        "$oid": "6a218741af3c687c4d851201"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "card",
+  "itemsPrice": 2600,
+  "shippingPrice": 0,
+  "totalPrice": 2600,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-04T14:10:09.294Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-04T14:10:09.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a22850c20013d704f047b96"
+  },
+  "user": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "orderItems": [
+    {
+      "name": "Мангал разборный",
+      "qty": 1,
+      "image": "/uploads/1780560711086-ÐÐ°Ð½Ð³Ð°Ð».jpg",
+      "price": 1700,
+      "product": {
+        "$oid": "6a212ea997fd1fc50d283a72"
+      },
+      "_id": {
+        "$oid": "6a22850c20013d704f047b97"
+      }
+    },
+    {
+      "name": "Трехместная палатка туристическая",
+      "qty": 1,
+      "image": "/uploads/1780560719982-2Ð¼ÐµÑÑÐ½Ð°ÑÐ¿Ð°Ð»Ð°ÑÐºÐ°.jpg",
+      "price": 6400,
+      "product": {
+        "$oid": "6a2123a197fd1fc50d283a5a"
+      },
+      "_id": {
+        "$oid": "6a22850c20013d704f047b98"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "cash",
+  "itemsPrice": 8100,
+  "shippingPrice": 0,
+  "totalPrice": 8100,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-05T08:13:00.390Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T08:13:00.390Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a229dbdc09524e52ff2ba3c"
+  },
+  "user": {
+    "$oid": "6a1ed9ed54f2b480ed369d32"
+  },
+  "orderItems": [
+    {
+      "name": "Мангал разборный",
+      "qty": 1,
+      "image": "/uploads/1780560711086-ÐÐ°Ð½Ð³Ð°Ð».jpg",
+      "price": 1700,
+      "product": {
+        "$oid": "6a212ea997fd1fc50d283a72"
+      },
+      "_id": {
+        "$oid": "6a229dbdc09524e52ff2ba3d"
+      }
+    },
+    {
+      "name": "Трехместная палатка туристическая",
+      "qty": 1,
+      "image": "/uploads/1780560719982-2Ð¼ÐµÑÑÐ½Ð°ÑÐ¿Ð°Ð»Ð°ÑÐºÐ°.jpg",
+      "price": 6400,
+      "product": {
+        "$oid": "6a2123a197fd1fc50d283a5a"
+      },
+      "_id": {
+        "$oid": "6a229dbdc09524e52ff2ba3e"
+      }
+    },
+    {
+      "name": "Одноместная палатка туристическая",
+      "qty": 1,
+      "image": "/uploads/1780560724920-1Ð¼ÐµÑÑÐ½Ð°ÑÐ¿Ð°Ð»Ð°ÑÐºÐ°.jpg",
+      "price": 2300,
+      "product": {
+        "$oid": "6a21219c30059ffa6d348816"
+      },
+      "_id": {
+        "$oid": "6a229dbdc09524e52ff2ba3f"
+      }
+    },
+    {
+      "name": "Решетка барбекю",
+      "qty": 1,
+      "image": "/uploads/1780560700600-ÑÐµÑÐµÑÐºÐ°.jpg",
+      "price": 2400,
+      "product": {
+        "$oid": "6a2132c45758df1f86266e9e"
+      },
+      "_id": {
+        "$oid": "6a229dbdc09524e52ff2ba40"
+      }
+    },
+    {
+      "name": "Двухместная палатка туристическая",
+      "qty": 1,
+      "image": "/uploads/1780560729810-2Ð¼ÐµÑÑÐ½Ð°ÑÐ¿Ð°Ð»Ð°ÑÐºÐ°.jpg",
+      "price": 4500,
+      "product": {
+        "$oid": "6a102b6d4eeb540a5475a795"
+      },
+      "_id": {
+        "$oid": "6a229dbdc09524e52ff2ba41"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "address": "Респ Татарстан, Тукаевский р-н, деревня Суровка, ул Дружбы, д 60423800, Респ Татарстан, г Набережные Челны 17.09.2014",
+    "city": "Город",
+    "postalCode": "000000",
+    "phone": "+79172714559"
+  },
+  "paymentMethod": "cash",
+  "itemsPrice": 17300,
+  "shippingPrice": 0,
+  "totalPrice": 17300,
+  "isPaid": false,
+  "isDelivered": false,
+  "createdAt": {
+    "$date": "2026-06-05T09:58:21.924Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T09:58:21.924Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6a1030660ef4983b2b8f5171"
+  },
+  "name": "Иван Иванов",
+  "email": "ivan@example.com",
+  "password": "$2b$10$vvqY1em/TL9Zv5tluK.Y2.lT4xDJbNKNQm4W25VfHdGleSdugc9X6",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-05-22T10:31:02.985Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T10:31:02.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1ed9ed54f2b480ed369d32"
+  },
+  "name": "Петр Петров",
+  "email": "test@test.com",
+  "password": "$2b$10$Q3FoFTjoaNAJHC2bzYDwievRkVdqBp0KTehRcbRhfwYII63MT6uBO",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2026-06-02T13:26:05.259Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-02T13:26:05.259Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1edea754f2b480ed369d33"
+  },
+  "name": "Админ Админов",
+  "email": "admin@admin.com",
+  "password": "$2b$10$q3/W/6G5hQ.V/4C.uj/X.O5ubvy3O/IQIiUHuFoAh/CyztI0AKNuy",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2026-06-02T13:46:15.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-06-05T14:29:26.629Z"
+  },
+  "__v": 0
+}]
